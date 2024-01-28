@@ -1,0 +1,27 @@
+xterm*renderFont:true
+xterm*faceName:Cousine Nerd Font Mono:style=Regular
+xterm*faceSize:11.5
+xterm*savelines:15000
+xterm*rightScrollBar:false
+xterm*ScrollBar:false
+xterm*selectToClipboard:true
+xterm*disallowedWindowOps:20,21,SetXProp
+xterm*.foreground:#f0f0f0
+xterm*.background:#1c1b1a
+xterm*.cursorColor:#f0f0f0
+xterm*.color0:#2c2e2f
+xterm*.color1:#df5b61
+xterm*.color2:#78b892
+xterm*.color3:#de8f78
+xterm*.color4:#6791c9
+xterm*.color5:#bc83e3
+xterm*.color6:#67afc1
+xterm*.color7:#f2f4f5
+xterm*.color8:#232526
+xterm*.color9:#e8646a
+xterm*.color10:#81c19b
+xterm*.color11:#e79881
+xterm*.color12:#709ad2
+xterm*.color13:#c58cec
+xterm*.color14:#70b8ca
+xterm*.color15:#e4e6e7

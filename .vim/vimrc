@@ -1,0 +1,40 @@
+set clipboard=unnamedplus
+syntax on
+colo badwolf
+set termguicolors
+set nocompatible
+set encoding=utf8
+set mouse=
+filetype plugin on
+filetype plugin indent on
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set smartindent
+set ignorecase
+set smartcase
+set number relativenumber
+set noruler
+set laststatus=2
+set hlsearch
+set wildmenu
+set wildmode=longest:list,full
+set cursorline
+set showcmd
+hi CursorLineNr term=bold cterm=bold ctermfg=11 gui=bold guifg=White
+let &t_SI="\e[5 q"
+let &t_EI="\e[1 q"
+let &t_SR="\e[3 q"
+augroup myCmds
+au!
+autocmd VimEnter * silent !echo -ne "\e[1 q"
+augroup END
+set t_u7=
+set scrolloff=6
+set list
+set listchars=tab:\ \ ┊
+
+source ~/.vim/mappings.vim
+source ~/.vim/packages.vim
+source ~/.vim/tex_snippets.vim
+source ~/.vim/statusline.vim

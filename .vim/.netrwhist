@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/linda/.vim/pack'
+let g:netrw_dirhist_2='/home/linda/.config/qutebrowser'
+let g:netrw_dirhist_1='/home/linda/.config/herbstluftwm'
